@@ -61,9 +61,7 @@ function CustomStyle(feature) {
 }
 //adding the geojson layer to overlayelements so that it can be shown in the layer control
 let overlayElements = {
-
-        "Final GeoJSON": final_map_output
-
+    "Final GeoJSON": final_map_output
 };
 
 //the legend's position

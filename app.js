@@ -74,8 +74,8 @@ legend.onAdd = function (map) {
     let div = L.DomUtil.create('div', 'info legend');
 
     div.innerHTML += "<h4>Legend</h4>";
-    div.innerHTML += '<i style="background: #ffff33"></i><span>AMS</span><br>';
-    div.innerHTML += '<i style="background: #e41a1c"></i><span>ROT</span><br>';
+    div.innerHTML += '<i style="background: #ffff33"></i><p style="margin:0;padding:0">AMS</p><br>';
+    div.innerHTML += '<i style="background: #e41a1c"></i><p style="margin:0;padding:0">ROT</p><br>';
     return div;
 };
 //adding the legend to the map
